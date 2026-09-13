@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
-@Document(collation = "candidates")
+@Document(collection = "candidates")
 public class Candidate {
 
     @Id
@@ -20,9 +20,7 @@ public class Candidate {
 
     private String name;
     private List<String> skills;
-    private int yearOfExperience;
+    private int yearsOfExperience;
     private String location;
     private BigDecimal expectedSalary;
-
-
 }
