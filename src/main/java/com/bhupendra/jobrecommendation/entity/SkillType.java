@@ -1,6 +1,6 @@
 package com.bhupendra.jobrecommendation.entity;
 
 public enum SkillType {
-    MUST_NICE,
+    MUST_HAVE,
     NICE_TO_HAVE
 }
