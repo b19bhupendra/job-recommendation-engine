@@ -1,4 +1,9 @@
 package com.bhupendra.jobrecommendation.dto.response;
 
-public class MatchBreakdown {
+public record MatchBreakdown(
+        double skills,
+        double experience,
+        double location,
+        double salary
+) {
 }

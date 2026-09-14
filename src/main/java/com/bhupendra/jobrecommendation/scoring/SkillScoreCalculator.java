@@ -4,9 +4,11 @@ import com.bhupendra.jobrecommendation.entity.Candidate;
 import com.bhupendra.jobrecommendation.entity.Job;
 import com.bhupendra.jobrecommendation.entity.SkillRequirement;
 import com.bhupendra.jobrecommendation.entity.SkillType;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class SkillScoreCalculator {
     private static final double MUST_HAVE_WEIGHT = 40.0;
     private static final double NICE_TO_HAVE_WEIGHT = 10.0;

@@ -2,7 +2,9 @@ package com.bhupendra.jobrecommendation.scoring;
 
 import com.bhupendra.jobrecommendation.entity.Candidate;
 import com.bhupendra.jobrecommendation.entity.Job;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ExperienceScoreCalculator {
     private static final double MAX_SCORE = 20.0;
     public double calculate(Candidate candidate, Job job) {

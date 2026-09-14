@@ -2,7 +2,9 @@ package com.bhupendra.jobrecommendation.scoring;
 
 import com.bhupendra.jobrecommendation.entity.Candidate;
 import com.bhupendra.jobrecommendation.entity.Job;
+import org.springframework.stereotype.Component;
 
+@Component
 public class LocationScoreCalculator {
 
     private static final double EXACT_MATCH_SCORE = 15.0;

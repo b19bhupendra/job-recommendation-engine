@@ -2,9 +2,11 @@ package com.bhupendra.jobrecommendation.scoring;
 
 import com.bhupendra.jobrecommendation.entity.Candidate;
 import com.bhupendra.jobrecommendation.entity.Job;
+import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
+@Component
 public class SalaryScoreCalculator {
     private static final double MAX_SCORE = 15.0;
 
