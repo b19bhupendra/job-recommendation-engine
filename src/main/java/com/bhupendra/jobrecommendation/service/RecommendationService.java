@@ -43,6 +43,7 @@ public class RecommendationService {
                 new ArrayList<>();
 
         List<Job> jobs = jobRepository.findAll();
+        System.out.println("Number of jobs found: " + jobs.size());
 
         for (Job job : jobs) {
 
